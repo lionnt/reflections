@@ -1,0 +1,30 @@
+How did viewing a diff between two versions of a file help you to see the bug that was introduced?
+
+Using diff command you can simply see the changes between two files. 
+If a bug has been introduced in the new version of file, you just need to check only changes between files rather then look to the whole file which can have hundreds lines of code.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having access to the history of a file means that you have access to all changes done from the first version of the file to the last.
+So, you can revise code, make it better, but if anything goes wrong, it's easy to compare different versions and find error.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved like Google dos does?
+
+This is good to manually choose when to create commit because you can control it yourself and decide if this is the time to save changes(commit) or not. You can do it in the logical way: one logical change-one commit. If the file automatically saved there is the risk that you're writing a code and in the middle of the line (or in the middle of the changes), but you can't do anything to prevent not needed at the moment changes.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others like Google Docs, treat each file separately?
+
+Because in Git they do the "snapshot" of the whole repository (all the files in the repository), while in Google Docs there is no such repository, there they operates on files.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log alllow us to see the history of commits (or the list of commits), by git diff we can compare two commits and thus the files changed in these commits.
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+If we use version control it's easy to find the change that broke the functionality. You just need to run different versions of the source file, then compare the version with failure with the previous version of the file. Thus it's possible to discover what inroduce the bug.
