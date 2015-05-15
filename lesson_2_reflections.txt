@@ -16,4 +16,9 @@ You can add files for one logical change to the staging area using git add, then
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-The branch can help if there is the situation when you need to do different changes based on the same base-commit. On ech branch you can create it's pwn versions of the files, it's own (branch's history).
+The branch can help if there is the situation when you need to do different changes based on the same base-commit. On ech branch you can create it's own versions of the files, it's own (branch's history).
+
+
+How do the diagrams help you visualize the branch structure?
+
+Using the diagram it's easy to see who is the parent of each commit, on which branch this commit exists.
