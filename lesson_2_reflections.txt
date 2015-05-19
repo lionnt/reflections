@@ -22,3 +22,8 @@ The branch can help if there is the situation when you need to do different chan
 How do the diagrams help you visualize the branch structure?
 
 Using the diagram it's easy to see who is the parent of each commit, on which branch this commit exists.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together we'll have the commit which inherit the changes done in both branches. Diagram helps us to understand hat changes we would like to have in the final commit after merge.
