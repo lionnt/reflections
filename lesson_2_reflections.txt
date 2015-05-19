@@ -27,3 +27,8 @@ Using the diagram it's easy to see who is the parent of each commit, on which br
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches together we'll have the commit which inherit the changes done in both branches. Diagram helps us to understand hat changes we would like to have in the final commit after merge.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+When merging manually you can do more specific changes, more intellectual changes. From the other hand auto merge can help us in the case of simple merge,than a person don't need to look at the file and think about whcih changes to have in the final file(s).
